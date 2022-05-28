@@ -1,7 +1,5 @@
-// CRC32 using parallel circuit table lookup 
-// that can rely upon LUT or block memory 
-
 `timescale 1ns/100 ps
+
 module tcrc32(
 	input 			i_clk,
 	input 			i_areset_n, 
